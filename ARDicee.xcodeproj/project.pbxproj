@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				55D778502018D5FE00037D82 /* AppDelegate.swift */,
-				55D778522018D5FE00037D82 /* art.scnassets */,
 				55D778542018D5FE00037D82 /* ViewController.swift */,
 				55D778562018D5FE00037D82 /* Main.storyboard */,
+				55D778522018D5FE00037D82 /* art.scnassets */,
 				55D778592018D5FE00037D82 /* Assets.xcassets */,
 				55D7785B2018D5FE00037D82 /* LaunchScreen.storyboard */,
 				55D7785E2018D5FE00037D82 /* Info.plist */,
@@ -281,11 +281,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z86KCWR5B;
 				INFOPLIST_FILE = ARDicee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lvtkhuong.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,11 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z86KCWR5B;
 				INFOPLIST_FILE = ARDicee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lvtkhuong.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
